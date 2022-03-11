@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dxbproject.presentation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/myAccouuntFragment"
+        android:name="com.example.dxbproject.presentation.MyAccouuntFragment"
+        android:label="fragment_my_accouunt"
+        tools:layout="@layout/fragment_my_accouunt" />
+    <fragment
+        android:id="@+id/newOrderFragment"
+        android:name="com.example.dxbproject.presentation.NewOrderFragment"
+        android:label="fragment_new_order"
+        tools:layout="@layout/fragment_new_order" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.dxbproject.presentation.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="com.example.dxbproject.presentation.OrderFragment"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" />
+</navigation>
